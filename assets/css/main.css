@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 40em;
+			width: 35em;
 		}
 
 	}
@@ -1361,7 +1361,7 @@
 	}
 
 		a:hover {
-			border-bottom-color: transparent !important;
+			border-bottom-color: transparent;
 			color: #8cd1a8 !important;
 			text-decoration: none;
 		}

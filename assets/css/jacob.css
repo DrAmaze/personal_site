@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  border-bottom: none;
+  color: none;
+}
+
+.icons-grid li a {
+  color: inherit;
+}
+
+.icons-grid li a:hover,
+.icons-grid li h3:hover {
+  transition: color .2s ease-in;
+  color: #61686b;
+}
