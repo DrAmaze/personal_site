@@ -1,3 +1,26 @@
+.landing {
+  display: flex;
+  flex-direction: horizontal;
+  width: 75%;
+  margin: 0 auto;
+  min-width: 525px;
+}
+
+.landing div {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 2em auto;
+  justify-content: space-around;
+  vertical-align: 50%;
+  width: 30%;
+}
+
+.landing div:nth-of-type(2){
+  border-right: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  padding: 0 1em;
+}
+
 a {
   text-decoration: none;
   border-bottom: none;
