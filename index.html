@@ -15,6 +15,12 @@
 		<link rel="stylesheet" href="assets/css/jacob.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript">
+   	(function(){
+      emailjs.init("user_JTvnL8TVAhIBO3sgzXIYN");
+   	})();
+		</script>
 	</head>
 	<body>
 
@@ -456,29 +462,30 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 			<section id="footer">
-				<div class="container">
+				<!-- <div class="container">
 					<header class="major">
 						<h2>Get in touch</h2>
 					</header>
-					<form method="post" action="#">
+					<form method="post" id='contact-form' role='form'>
 						<div class="row uniform">
 							<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 							<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
 							<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
 							<div class="12u$">
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="special" /></li>
+									<li><input type="submit" value="Send Message" class="special"/></li>
 								</ul>
 							</div>
 						</div>
 					</form>
-				</div>
+				</div> -->
 				<footer>
 					<ul class="icons">
 						<li><a href="https://www.linkedin.com/in/jacob-butler-a2ab7093/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://github.com/DrAmaze" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 						<li><a href="https://www.instagram.com/luzid.kid/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="assets/files/Jacob_Butler_AA_Resume.pdf" class="icon alt fa-file-text-o"><span class="label">Resume</span></a></li>
+						<li><a href="mailto:jacob@butlersdomain.com" class="icon alt fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Jacob Butler</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
