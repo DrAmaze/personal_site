@@ -1312,7 +1312,7 @@
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/surfer.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -1885,7 +1885,7 @@
 	}
 
 	header h1 + p {
-		margin-top: -1em;
+		margin-top: -em;
 	}
 
 	header h2 + p {
@@ -2177,7 +2177,7 @@
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			/* width: 100%; */
 		}
 
 		.image img {
@@ -2211,7 +2211,7 @@
 		}
 
 			.image.fit img {
-				width: 100%;
+				/* width: 100%; */
 			}
 
 /* List */
@@ -2718,7 +2718,7 @@
 			#header header h1 {
 				font-size: 3em;
 				line-height: 1.25em;
-				margin: 0;
+				margin: 2em 0 0 0;
 			}
 
 				#header header h1:after {
@@ -2765,7 +2765,7 @@
 
 		#footer footer {
 			bottom: 2em;
-			color: rgba(255, 255, 255, 0.5);
+			color: white;
 			left: 0;
 			position: absolute;
 			text-align: center;
@@ -2777,11 +2777,11 @@
 			}
 
 			#footer footer a {
-				color: inherit;
+				color: white;
 			}
 
 				#footer footer a:hover {
-					color: #ffffff !important;
+					color: lightgray !important;
 				}
 
 			#footer footer .copyright {

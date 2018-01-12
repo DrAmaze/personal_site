@@ -1,9 +1,9 @@
 .landing {
   display: flex;
-  flex-direction: horizontal;
+  flex-direction: row;
   width: 75%;
   margin: 0 auto;
-  min-width: 525px;
+  min-width: 20vw;
 }
 
 .landing div {
@@ -19,6 +19,15 @@
   border-right: 2px solid #ffffff;
   border-left: 2px solid #ffffff;
   padding: 0 1em;
+}
+
+img.jacob-icon {
+  border-radius: 50%;
+  height: 10em;
+  margin: 0 auto;
+  object-fit:cover;
+  opacity: .95;
+  width: 10em;
 }
 
 a {

@@ -1,5 +1,7 @@
 # Jacob T. Butler's Personal Website
 
+[Live](https://dramaze.github.io/personal_site/)
+
 ## Credits:
 
 ### Website Design:
@@ -8,7 +10,7 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the - CCA 3.0 license
 
 ### Images:
-Joseph Doyle 
+Joseph Doyle
 Unsplash (unsplash.com)
 
 ### Icons:
