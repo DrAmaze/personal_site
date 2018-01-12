@@ -2161,6 +2161,8 @@
 				font-size: 2.5em;
 			}
 
+
+
 /* Image */
 
 	.image {
@@ -2641,7 +2643,7 @@
 			.main .container:before {
 				min-height: calc( 100vh - 13em );
 				content: '';
-				display: inline-block;
+				/* display: inline-block; */
 				vertical-align: middle;
 				width: 1px;
 			}

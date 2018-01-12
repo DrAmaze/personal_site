@@ -45,3 +45,70 @@ a {
   transition: color .2s ease-in;
   color: #61686b;
 }
+
+/* skills  */
+
+ul.major-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-right: 0em;
+}
+
+.major-icons li {
+  margin: .35em;
+  width: 30%;
+
+}
+
+.major-icons li:nth-of-type(3n-1) {
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+}
+
+.devIcon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: DevIcon;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.devIcon.style1:before {
+  color: #c3e895;
+}
+
+.devIcon.style2:before {
+  color: #8addaa;
+}
+
+.devIcon.style3:before {
+  color: #6bd4c8;
+}
+
+.devIcon.style4:before {
+  color: #57aed3;
+}
+
+.devIcon.style5:before {
+  color: #4a87d3;
+}
+
+.devIcon.style6:before {
+  color: #6b88e6;
+}
+
+.devIcon > .label {
+  display: none;
+}
+
+.devIcon.major {
+  display: block;
+  margin: 0 0 1em 0;
+}
+
+.devIcon.major:before {
+  font-size: 2.5em;
+}
