@@ -2873,6 +2873,14 @@
 
 	}
 
+	@media screen and (max-width: 845px) {
+
+			#header .landing div:nth-of-type(2) {
+				border: none;
+			}
+
+	}
+
 /* Small */
 
 	@media screen and (max-width: 736px) {
@@ -3034,6 +3042,22 @@
 				.main .container .image.primary:first-child {
 					margin: -2em 0 2.5em 0;
 				}
+
+		/* Header */
+
+			#header .landing {
+				flex-direction: column;
+			}
+
+			#header .landing div {
+				margin: .5em 20%;
+			}
+
+			#header .landing div:nth-of-type(2) {
+				border-left: none;
+				border-right: none;
+				padding: 0;
+			}
 
 		/* Footer */
 
