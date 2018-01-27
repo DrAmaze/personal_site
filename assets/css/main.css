@@ -2919,6 +2919,20 @@
 						margin-top: 1em;
 					}
 
+					#header .landing {
+						flex-direction: column;
+					}
+
+					#header .landing div {
+						margin: .5em 35%;
+					}
+
+					#header .landing div:nth-of-type(2) {
+						border-left: none;
+						border-right: none;
+						padding: 0;
+					}
+
 				#header .container {
 					display: none;
 				}
